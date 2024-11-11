@@ -21,6 +21,14 @@ require("lazy").setup({
 
     -- rust lsp
     { import = "lazyvim.plugins.extras.lang.rust" },
+
+    --  linting
+    { import = "lazyvim.plugins.extras.linting.eslint" },
+    { import = "lazyvim.plugins.extras.formatting.prettier" },
+
+    -- typescript and css
+    { import = "lazyvim.plugins.extras.lang.tailwind" },
+    { import = "lazyvim.plugins.extras.lang.typescript" },
     -- import/override with your plugins
     { import = "plugins" },
   },
